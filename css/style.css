@@ -1,0 +1,117 @@
+@media(min-width:800px) {
+.hidden {
+    display: none;
+}
+
+h2#clock {
+    color:whitesmoke;
+    text-align:center;
+    font-size:200px;
+    position:relative;
+    top:50%;
+}
+
+#login-form {
+    position:relative;
+    top:50%;
+    left:43%;
+}
+
+#input1 {
+    width: 400px;
+    height: 55px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px;
+    border-color: whitesmoke;
+    background-color: transparent;
+}
+
+#input1::placeholder {
+    color:whitesmoke;
+    font-size:50px;
+    font-weight:bold;
+}
+
+#input1, select, textarea {
+    color:whitesmoke;
+    font-size:50px;
+    text-align: center;
+}
+
+#submit {
+    display:none;
+}
+
+#todo-form {
+    position: fixed;
+    top:800px;
+    left:40.5%;
+}
+
+#todo-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#todo {
+    background-color: transparent;
+    height: calc( 100% - 30px);
+}
+
+.todo-list {
+    background-color: transparent;
+    list-style: none;
+}
+
+#input2 {
+    width: 400px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5pt;
+    border-color: whitesmoke;
+    background-color: transparent;
+}
+
+#input2::placeholder {
+    color:whitesmoke;
+    font-size:25px;
+}
+
+#input2, select, textarea {
+    color:whitesmoke;
+    font-size:25px;
+    text-align: center;
+}
+
+#greeting {
+    color:whitesmoke;
+    font-size:80px;
+    text-align: center;
+}
+
+#quote {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    top:300px;
+}
+
+#weather {
+    color:whitesmoke;
+    text-align:right;
+    font-weight:bold;
+    font-size:20px;
+    position: relative;
+    top:auto;
+}
+
+img {
+    display: none;
+}
+}
